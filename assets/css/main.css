@@ -805,24 +805,7 @@ section,
   align-items: center;
 }
 
-.hero::before {
-  /* 🔥 Optional overlay */
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 1;
-}
-
-.hero .container {
-  position: relative;
-  z-index: 2; /* ensures text + hero-img stay above overlay */
-}
-
-/* Existing styles you already had */
 .hero h1 {
-color: var(--surface-color);
   margin: 0;
   font-size: 64px;
   font-weight: 700;
@@ -904,11 +887,11 @@ color: var(--surface-color);
   0% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(-10px);
   }
 }
-
 
 /*--------------------------------------------------------------
 # About Section
