@@ -803,10 +803,6 @@ section,
   padding: 60px 0;
   display: flex;
   align-items: center;
-
-  /* 🔥 Background image */
-  background: url("../img/La%20Fattoria%20(345).jpg") center center no-repeat;
-  background-size: cover;
 }
 
 .hero::before {
@@ -833,7 +829,7 @@ color: var(--surface-color);
 }
 
 .hero p {
-  color: color-mix(in srgb, var(--surface-color), transparent 30%);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin: 5px 0 30px 0;
   font-size: 20px;
   font-weight: 400;
